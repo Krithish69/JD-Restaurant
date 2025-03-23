@@ -118,3 +118,78 @@
     color: var(--primary-green);
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .login-box {
+      padding: 20px;
+      border-radius: 30px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h6 {
+      font-size: 14px;
+    }
+  
+    .input-group {
+      padding: 8px;
+    }
+  
+    input {
+      padding: 10px 25px;
+      font-size: 14px;
+    }
+  
+    button {
+      width: calc(100% - 60px);
+      padding: 10px;
+      font-size: 14px;
+      margin-left: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .login-box {
+      padding: 15px;
+      border-radius: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    h6 {
+      font-size: 12px;
+    }
+  
+    .input-group {
+      padding: 5px;
+    }
+  
+    input {
+      padding: 8px 20px;
+      font-size: 12px;
+    }
+  
+    button {
+      width: calc(100% - 40px);
+      padding: 8px;
+      font-size: 12px;
+      margin-left: 20px;
+    }
+  
+    .resend-container, .resend-button {
+      font-size: 12px;
+    }
+  }
