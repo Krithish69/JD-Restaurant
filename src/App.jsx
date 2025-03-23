@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./frontend/LoginPage.jsx";
 import Menu from "./frontend/Menu.jsx";
 import ThankYouPage from "./frontend/ThankYou.jsx";
-import Amenu from "./Admin/Amenu.jsx";
+import Amenu from "./Admin/AMenu.jsx";
 import Admin from "./Admin/AdminPage.jsx";
 import QRCodeHandler from "./frontend/QRCodeHandler";
 import Kitchen from "./kitchen/kitchen.jsx";
