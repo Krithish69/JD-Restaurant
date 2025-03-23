@@ -13,13 +13,13 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/thank-you" element={<ThankYouPage />} />
-          <Route path="/admin" element={<Admin />} />
-          <Route path="/amenu" element={<Amenu />} />
-          <Route path="/qr-handler" element={<QRCodeHandler />} />
-          <Route path="/kitchen" element={<Kitchen />} />
+          <Route path="/JD-Restaurant/" element={<Login />} />
+          <Route path="/JD-Restaurant/menu" element={<Menu />} />
+          <Route path="/JD-Restaurant/thank-you" element={<ThankYouPage />} />
+          <Route path="/JD-Restaurant/admin" element={<Admin />} />
+          <Route path="/JD-Restaurant/amenu" element={<Amenu />} />
+          <Route path="/JD-Restaurant/qr-handler" element={<QRCodeHandler />} />
+          <Route path="/JD-Restaurant/kitchen" element={<Kitchen />} />
         </Routes>
       </div>
     </Router>
