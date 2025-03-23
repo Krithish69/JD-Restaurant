@@ -166,6 +166,7 @@
       padding: 10px; /* Adjust padding for smaller screens */
       width: 100vw; /* Ensure full width of the viewport */
       align-items: center; /* Center align items */
+      height: fit-content;
     }
   
     .login-box {
