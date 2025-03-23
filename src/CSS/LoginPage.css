@@ -9,8 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 93.75vh;
+    width: 100vw; /* Ensure it spans the full width of the viewport */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
     padding: 20px;
+    margin: 0; /* Remove horizontal centering */
+    box-sizing: border-box; /* Include padding in width/height calculations */
   }
   
   .login-box {
@@ -122,6 +125,9 @@
   @media (max-width: 768px) {
     .container {
       padding: 10px;
+      width: 100%;
+      flex-direction: column;
+      align-items: stretch;
     }
   
     .login-box {
@@ -157,12 +163,16 @@
   @media (max-width: 480px) {
     .container {
       flex-direction: column;
-      padding: 5px;
+      padding: 10px; /* Adjust padding for smaller screens */
+      width: 100vw; /* Ensure full width of the viewport */
+      align-items: center; /* Center align items */
     }
   
     .login-box {
       padding: 15px;
       border-radius: 20px;
+      width: 90%; /* Reduce width for better fit on smaller screens */
+      max-width: none; /* Remove max-width restriction */
     }
   
     h2 {
@@ -178,18 +188,19 @@
     }
   
     input {
-      padding: 8px 20px;
+      padding: 8px 15px; /* Adjust padding for smaller inputs */
       font-size: 12px;
     }
   
     button {
-      width: calc(100% - 40px);
-      padding: 8px;
-      font-size: 12px;
-      margin-left: 20px;
+      width: 100%; /* Make button span full width */
+      padding: 10px;
+      font-size: 14px;
+      margin-left: 0; /* Remove left margin */
     }
   
     .resend-container, .resend-button {
       font-size: 12px;
+      text-align: center; /* Center align text */
     }
   }
