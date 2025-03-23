@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import nodemailer from "nodemailer";
-import db from "./db.js";
+import db from "./Backend/db.js";
 import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
