@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./AMenu.css";
 
-const Menu = () => {
+const AMenu = () => {
   return (
     <div className="menu-page">
       <header className="menu-header">
@@ -26,4 +26,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default AMenu;
