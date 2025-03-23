@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./frontend/loginPage.jsx";
+import Login from "./frontend/LoginPage.jsx";
 import Menu from "./frontend/Menu.jsx";
 import ThankYouPage from "./frontend/ThankYou.jsx";
 import Amenu from "./Admin/Amenu.jsx";
